@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Gensim.Helpers;
+using System;
+using System.Collections.Generic;
 
 namespace Gensim
 {
@@ -23,18 +25,11 @@ namespace Gensim
 
         public void GenerationCount(IManager manager)
         {
-            int tmpCounter = 0;
-            for (int a = 1; a <= manager.NumberOfGenerations; a++)
+            List<int> pattern = Quantification.CountGenerations(manager);
+
+            for (int cnt = 1; cnt < manager.NumberOfGenerations; cnt++)
             {
-                foreach (IAnimal animal in manager.Animals)
-                {
-                    if (animal.Generation == a)
-                    {
-                        tmpCounter++;
-                    }
-                }
-                this.writer.Write("Animals in Gerenation no." + a + ": " + tmpCounter);
-                tmpCounter = 0;
+                this.writer.Write("Animals in Gerenation no." + cnt + ": " + pattern[cnt-1]);
             }
         }
 

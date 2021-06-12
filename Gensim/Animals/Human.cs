@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Gensim
 {
-    internal class Human : IAnimal
+    public class Human : IAnimal
     {
         public IGender Gender { get; set; }
         public int Generation { get; set; }

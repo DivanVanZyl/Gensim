@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Gensim.Genders
 {
-    class Man : IGender
+    public class Man : IGender
     {
         public IGender.MainTypeEnum MainType { get; set; }
         public bool IsFertile { get; set; }

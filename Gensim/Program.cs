@@ -38,6 +38,7 @@ namespace Gensim
             //Display results
             salutation.GenerationCount(manager);
             salutation.AmountOfAnimals(manager);
+            Console.ReadLine();
         }
     }
 }
