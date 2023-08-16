@@ -1,7 +1,7 @@
 # Gensim
 Animal Generation Simulator
 
-This program simulates an x amount of generations of an animal, according to that animal's breeding mechanics.
+This program simulates an ${x}$ amount of generations of an animal, according to that animal's breeding mechanics.
 
 The number of organisms per generation is counted, producing a number pattern.
 
