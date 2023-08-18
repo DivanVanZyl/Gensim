@@ -44,10 +44,3 @@ this.RequiredParents = new List<Type>
 Only one parent! I leave the investigation into the remaining bee gender up to you. But the implication of the bee's different genders and gender mechanics, is of course that the number pattern resulting from counting their ancestors is different than ours. Theirs is in fact: $\displaystyle F_{n}=F_{n-1}+F_{n-2}$ !
 
 I got the idea for this progam, while reading "The Maths Book - Big Ideas Simply Explained".
-
-To do: 
-  Mutilple ancestry "trees"*
-  
-
- 
-*(Possibly new IManager classes)
