@@ -21,7 +21,7 @@ this.RequiredParents = new List<Type>
             };
 ```
 
-One of the implications of this, is that if I count all of my parents, the number will always be 2. And if I count all of my grandparents, the number will always be 4. And their parents, will be 8, and so on. This is the same as (drumroll) ${2^n}$ !
+One of the implications of this, is that if I count all of my parents, the number will always be 2. And if I count all of my grandparents, the number will always be 4. And their parents, will be 8, and so on. This is the same as ${2^n}$ !
 
 But not all animals have two genders and two parents. As for my other example, bees. They have 3 genders, whom have different parental requirements. Here is an example from my Queen implementation of IGender:
 
@@ -41,6 +41,6 @@ this.RequiredParents = new List<Type>
             };
 ```
 
-Only one parent! I leave the investigation into the remaining bee gender up to you. But the implication of the bee's different genders and gender mechanics, is of course that the number pattern resulting from counting their ancestors is different than ours. Theirs is in fact: $\displaystyle F_{n}=F_{n-1}+F_{n-2}$ !
+The implication of the bee's different genders and gender mechanics, is of course that the number pattern resulting from counting their ancestors is different than ours. Theirs is in fact: $\displaystyle F_{n}=F_{n-1}+F_{n-2}$ !
 
 I got the idea for this progam, while reading "The Maths Book - Big Ideas Simply Explained".
