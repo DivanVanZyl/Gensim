@@ -7,9 +7,7 @@ The number of organisms per generation is counted, producing a number pattern.
 
 Examples of these number patterns are Fibonacci sequence for bees🐝 and powers of 2 for humans👶🏼.
 
-![CalculatingPuzzledGIF](https://github.com/DivanVanZyl/Gensim/assets/5897077/4b7c6526-0002-4dc6-aa5c-f705aa429792)
-
-Confused? It's actually quite simple. Let me ellaborate: You are a human...or a computer, but in such a case, biological generations would not apply to you, so human will be assumaed here. As a human, you have exacty two parents. This is a biological fact in the sense that it is required as part of the breeding mechanic of the human species, ie the parental requirements for a male of female human, is both a male and female parent (one of each).
+As a human, you have exacty two parents. This is a biological fact in the sense that it is required as part of the breeding mechanic of the human species, ie the parental requirements for a male of female human, is both a male and female parent (one of each).
 
 This you will see represented in the Man and Woman implementations of IGender:
 
